@@ -1,0 +1,34 @@
+*.py[cod]
+.*
+!.dockerignore
+!.editorconfig
+!.env.template
+!.parameters.template.json
+!.secrets.template.json
+!.gitattributes
+!.gitignore
+!.nvmrc
+!.pre-commit-config.yaml
+!.pylintrc
+!.vscode
+*.log
+*.mo
+*.pid
+*.pot
+*.pyc
+__pycache__/
+*.swp
+*\.egg*
+
+# data
+celerybeat-schedule
+/media/
+/node_modules/
+/static/dist/
+/static-prod/
+/staticfiles/
+google_token.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
